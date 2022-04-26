@@ -34,6 +34,7 @@ export const Product = () => {
       <Row gutter={[0, 12]}>
         <Col span={4} offset={1}>
           <Space direction="vertical" size="large">
+            {/* crear path dinamico como : src={`/assets/${id}/.png`} o imagePath = `/assets/${id}/.png` */}
             <Image src={molcajete} height={78} width={78} preview={true} />
             <Image src={molcajete} height={78} width={78} preview={true} />
             <Image src={molcajete} height={78} width={78} preview={true} />

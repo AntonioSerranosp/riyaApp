@@ -1,6 +1,53 @@
 .layout-wrapper-home {
   width: 100%;
   height: 100%;
+  background-color: #ffffff;
+  .image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  /**
+  TODO: HACER UN MEDIA QUERY PARA LA IMAGEN EN TAMAÑOS GRANDES
+  */
+  .banner-image-container {
+    margin: 30px calc(40px - 10px);
+    background-repeat: no-repeat;
+    height: 537px;
+    width: 100%;
+
+    .labels-wrapper {
+      width: 100%;
+      height: auto;
+    }
+
+    .title-label {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 43px;
+      line-height: 30px;
+      font-weight: 600;
+
+      margin-left: 197px;
+      margin-top: 40px;
+    }
+
+    .paragraph-wrapper {
+      width: 100%;
+      height: 40px;
+      .paragraph-description {
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-left: 197px;
+      }
+    }
+
+    .button-black {
+      width: 178px;
+      margin-left: 197px;
+    }
+  }
+
   .section-left {
     width: 50%;
     padding: 10px;
@@ -32,6 +79,9 @@
     text-align: center;
     background-color: white;
     margin-bottom: 20px;
+    box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 1rem;
     .button-red {
       margin: 15px 125px;
       width: 90px;

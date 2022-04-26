@@ -1,7 +1,7 @@
+import React from "react";
 import { Col, Row, Form, Button, Input, Typography } from "antd";
 import { ReactComponent as RiyaLogo } from "../../assets/riya-favicon.svg";
 import "./Contact.less";
-import React from "react";
 
 const layout = {
   labelCol: {
