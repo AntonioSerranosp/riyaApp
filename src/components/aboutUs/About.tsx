@@ -8,29 +8,26 @@ export const About = () => {
   return (
     <div className="aboutUs-layout-wrapper">
       <div className="text-paragraph-left">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam ullam
-        voluptatem nam, ut, eius dignissimos aut tempore voluptatum nulla,
-        tempora quasi beatae doloremque suscipit tenetur laboriosam eum? At,
-        quos nulla!
+        Trabajamos con diversas comunidades indígenas para poder ofrecer
+        diversas artesanias de multiples estados de la Republica Mexicana, con
+        el fin apoyar a los artesanos.
       </div>
       <Row>
-        {/* <Image
-          src={jarronTallado}
-          style={{ width: "100vw" }}
-          height={820}
-          preview={false}
-        /> */}
         <div className="know-riya-square">
           <Title level={3}>Conoce a riya</Title>
           <div className="know-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum
-            distinctio asperiores ducimus! Deleniti est tempore velit sed
-            molestiae hic, eos consequuntur libero voluptatum aspernatur quam.
-            Non, provident. Adipisci, hic? Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Necessitatibus neque perspiciatis
-            porro dolores doloremque iste inventore sint ullam consectetur
-            nesciunt, quis ipsa autem tempore veritatis nobis repudiandae
-            adipisci officiis deserunt.
+            Riya es una iniciativa de Alternare A.C., organización dedicada,
+            desde hace más de 23 años, a impulsar el desarrollo integral
+            sustentable en pro de la conservación de la Reserva de la Biosfera
+            mariposa monarca de la mano de las comunidades que habitan la
+            región.
+          </div>
+          <div className="know-paragraph">
+            El impacto de nuestro modelo da respuesta a algunas de las
+            principales problemáticas a las que nos enfrentamos a nivel mundial:
+            degradación ambiental, inseguridad alimentaria, pobreza rural, entre
+            muchos otros. A través de Riya esperamos apoyar a multiples
+            comunidades indigenas y artesanos locales.
           </div>
 
           <Button className="button-black">

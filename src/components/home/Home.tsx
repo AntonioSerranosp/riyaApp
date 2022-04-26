@@ -8,12 +8,30 @@ import aretes from "../../assets/aretes.png";
 import "./Home.less";
 import { Link } from "react-router-dom";
 import { OffertProductCard } from "../products/OffertProductCard";
+import homebaner from "../../assets/chica-pintando.png";
 
 const { Title } = Typography;
 
 export const Home = () => {
   return (
     <div className="layout-wrapper-home">
+      <Row justify="space-around">
+        <div
+          style={{ backgroundImage: `url(${homebaner})` }}
+          className="banner-image-container"
+        >
+          <h2 className="title-label">ARTESANIAS</h2>
+          <h2 className="title-label">MEXICANAS</h2>
+
+          <div className="paragraph-wrapper">
+            <p className="paragraph-description">
+              Consultas el catálogo que las comunidades indígenas tienen para ti{" "}
+            </p>
+          </div>
+          <Button className="button-black">ir a ofertas</Button>
+        </div>
+      </Row>
+
       <Row>
         <Col offset={2} span={10}>
           <Title>Lore ipsum home</Title>
