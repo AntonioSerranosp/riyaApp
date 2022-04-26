@@ -33,30 +33,6 @@ export const Home = () => {
       </Row>
 
       <Row>
-        <Col offset={2} span={10}>
-          <Title>Lore ipsum home</Title>
-          <div className="paragraph-left">
-            <p>algo bien locochon</p>
-          </div>
-          <Button className="button-black">
-            <Link to="/shop">ir a la tienda</Link>
-          </Button>
-        </Col>
-        <Col span={10} pull={2}>
-          <Carousel autoplay>
-            <div>
-              <Image src={jarron} height={445} width={700} preview={false} />
-            </div>
-            <div>
-              <Image src={jarron} height={445} width={700} preview={false} />
-            </div>
-            <div>
-              <Image src={jarron} height={445} width={700} preview={false} />
-            </div>
-          </Carousel>
-        </Col>
-      </Row>
-      <Row>
         <Col offset={2} span={5}>
           <Title level={2}>Ofertas</Title>
           <p>del mes</p>
