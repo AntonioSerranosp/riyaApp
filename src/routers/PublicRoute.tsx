@@ -4,6 +4,5 @@ import { RiyaContext } from "../context/RiyaContext";
 
 export const PublicRoute = ({ children }: any) => {
   const { riyaState } = useContext(RiyaContext);
-
   return riyaState.logged ? <Navigate to="/" /> : children;
 };
